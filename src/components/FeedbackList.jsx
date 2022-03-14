@@ -34,20 +34,6 @@ function FeedbackList() {
   )
 }
 
-{/* <div className="feedback-list">
-        {feedback.map((item) => (
-            <FeedbackItem
-             key={item.id} 
-             item= {item}
-            handleDelete={handleDelete}
-             />
-             
-        ))}
-    </div> */}
 
-    {/* key={item.id}
-            initial={{opacity: 0}}
-            animate={{opacity:1}}
-            exit={{opacity:0}} */}
 
 export default FeedbackList
